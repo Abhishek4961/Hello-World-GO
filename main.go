@@ -6,9 +6,7 @@ import (
 "os"
 )
 func helloHandler(w http.ResponseWriter, r *http.Request) {
-fmt.Fprintln(w, "Hello World from Github in GCP using
-GO!
-🐹")
+fmt.Fprintln(w, "Hello World from Github in GCP using GO!🐹")
 }
 func main()
 {
